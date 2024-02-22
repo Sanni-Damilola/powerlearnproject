@@ -1,13 +1,17 @@
 void main() {
+  // Define variables
   String name = "Sanni";
   int age = 30;
   String nationality = "Nigeria";
   bool isMarried = false;
 
-  print(name);
-  print(age);
-  print(nationality);
-  print(isMarried);
+  // Print individual details
+  print("Name: $name");
+  print("Age: $age");
+  print("Nationality: $nationality");
+  print("Marital Status: ${isMarried ? 'Married' : 'Single'}");
 
-  print("Hello My Name is $name, I'm $age year old, I love $nationality");
+  // Print summary message
+  print(
+      "Hello! My name is $name. I am $age years old, and I am from $nationality.");
 }
