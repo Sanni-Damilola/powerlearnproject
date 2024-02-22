@@ -25,13 +25,13 @@ void introduceYourself(String name, int age, String nationality) {
 }
 
 void main() {
-  printRectangleArea(5.0, 3.0); // Output: The area of the rectangle is: 15.0
+  printRectangleArea(5.0, 3.0); 
 
-  printIsEven(4); // Output: 4 is even: true
-  printIsEven(3); // Output: 3 is even: false
+  printIsEven(4); 
+  printIsEven(3); 
 
-  greet("Alice"); // Output: Hello, Alice!
+  greet("Alice"); 
 
   introduceYourself("Sanni", 30,
-      "Nigeria"); // Output: Hello! My name is Sanni. I am 30 years old, and I am from Nigeria.
+      "Nigeria"); 
 }
