@@ -10,5 +10,5 @@ void main() {
   print("Marital Status: ${isMarried ? 'Married' : 'Single'}");
 
   print(
-      "Hello! My name is $name. I am $age years old, and I am from $nationality.");
+      "Greetings! I am $name. I am $age years old, hailing from $nationality.");
 }
